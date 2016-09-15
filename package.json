@@ -1,0 +1,26 @@
+{
+  "name": "css-min-height-scale-dc",
+  "version": "1.0.0",
+  "description": "Css module of single purpose classes for min height scale",
+  "main": "index.js",
+  "devDependencies": {
+    "tachyons-cli": "^1.0.6"
+  },
+  "scripts": {
+    "start": "tachyons src/css-min-height-scale.css > css/css-min-height-scale.css && tachyons src/css-min-height-scale.css --minify > css/css-min-height-scale.min.css && tachyons src/css-min-height-scale.css --generate-docs --package=../../package.json > readme.md"
+  },
+  "keywords": [],
+  "author": "David Mark Clements",
+  "license": "MIT",
+  "dependencies": {
+    "tachyons-cli": "^1.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmarkclements/css-min-height-scale-dc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidmarkclements/css-min-height-scale-dc/issues"
+  },
+  "homepage": "https://github.com/davidmarkclements/css-min-height-scale-dc#readme"
+}
